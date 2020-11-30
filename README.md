@@ -23,7 +23,7 @@
 * DB_DATABASE=(Your created DB name) 
 * DB_USERNAME=root   
 * DB_PASSWORD=mysql
-### Create .htaccess file to your Crud folder and inport this code:
+### Create .htaccess file to your Crud folder and import this code:
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteRule ^(.*)$ public/$1 [L]
@@ -33,4 +33,6 @@ RewriteRule ^(.*)$ public/$1 [L]
 
 Enter to terminal: php artisan migrate
 
-YOU are ready to use an app!
+### open: localhost/empCrud
+
+Enjoy an app
