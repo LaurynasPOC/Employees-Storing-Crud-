@@ -10,3 +10,13 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
+/bootstrap
+composer.json
+composer.lock
+package-lock.json
+package.json
+phpunit.xml
+server.php
+webpack.mix.js
+artisan
+.styleci.yaml
