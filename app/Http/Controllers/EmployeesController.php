@@ -30,6 +30,7 @@ class EmployeesController extends Controller
             'fullName' => 'required|unique:employees',
             'age' => 'required',
             'phoneNumber' => 'required',
+            'positions_id' => 'required',
         ]);
         $employee = new Employees();
         $employee->fill($request->all());
@@ -47,6 +48,7 @@ class EmployeesController extends Controller
             'fullName' => 'required',
             'age' => 'required',
             'phoneNumber' => 'required',
+            'positions_id' => 'required',
         ]);
         $employee->fill($request->all());
         $employee->save();
