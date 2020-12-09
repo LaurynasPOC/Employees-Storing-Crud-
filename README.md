@@ -14,7 +14,7 @@
 * composer create-project laravel/laravel empCrud
 
 ### Clone this repository to the empCrud on your host:
-1. https://github.com/LaurynasPOC/Sprint5PHP
+1. https://github.com/LaurynasPOC/Employees-Storing-Crud-
 2. And run this CLI command inside of the {app-directory}: 
 composer install
 * if composer is not installed globally, run command: "php composer.phar install"
