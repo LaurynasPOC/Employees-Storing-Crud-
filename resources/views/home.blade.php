@@ -13,7 +13,7 @@
                     {{ __('WELCOME to my employees storing CRUD app!') }}
                 </div>
                 <div class="card-footer">
-                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRieo8uah8aW4rmJpKfN3n-e2nOfwHbL6cn-w&usqp=CAU" alt=""> 
+                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRieo8uah8aW4rmJpKfN3n-e2nOfwHbL6cn-w&usqp=CAU" alt="" > 
                 </div>
             </div>
         </div>

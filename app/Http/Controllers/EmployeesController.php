@@ -18,7 +18,7 @@ class EmployeesController extends Controller
             $employees = \App\Models\Employees::where('positions_id', $request->positions_id)->orderBy('fullName')->get();
         else
             $employees = \App\Models\Employees::orderBy('fullName')->get();
-        $positions = \App\Models\Positions::orderBy('positions')->get();
+            $positions = \App\Models\Positions::orderBy('positions')->get();
         return view('employees.index', ['employees' => $employees, 'positions' => $positions]);
     }
     public function create() {
@@ -52,7 +52,7 @@ class EmployeesController extends Controller
         ]);
         $employee->fill($request->all());
         $employee->save();
-        return redirect()->route('employees.index')->with('status_success', 'Post updated!');
+        return redirect()->route('employees.index')->with('status_success', 'Employee updated!');
     }
  
      public function destroy(Employees $employee){

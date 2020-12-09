@@ -45,7 +45,7 @@
     </thead>
     <tr>
         <form method="POST" action="{{ route('employees.index') }}">
-            @csrf
+            @csrf @method('POST')
         <td><strong>#</strong></td>
         <td><input type="text" name="fullName" placeholder="Full name.."></td>
         <td><input type="number" name="age" placeholder="Age.."></td>

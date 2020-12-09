@@ -38,7 +38,7 @@ class PositionsController extends Controller
         ]);
         $position->fill($request->all());
         $position->save();
-        return redirect()->route('positions.index')->with('status_success', 'Post updated!');
+        return redirect()->route('positions.index')->with('status_success', 'Position updated!');
     }
  
      public function destroy(Positions $position){
